@@ -21,6 +21,10 @@
   cursor: pointer;
 }
 
+.header__left h1:hover {
+  opacity: 0.8;
+}
+
 .header__right {
   flex: 1;
   display: flex;
