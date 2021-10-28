@@ -1,0 +1,22 @@
+.intro {
+  display: flex;
+  background-color: #242424;
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.intro__left {
+  flex: 1;
+  padding: 20px;
+}
+
+.intro__left img {
+  width: 100%;
+}
+
+.intro__right {
+  flex: 1;
+  padding: 20px;
+}

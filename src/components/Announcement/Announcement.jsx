@@ -10,9 +10,9 @@ const Announcement = () => {
   return (
     <div className="announcement">
       <div className="announcement__contents">
+        <PhoneIcon /> <span>+91 9307997953</span>
         <EmailIcon />
         <span> ritishjaiswal20@gmail.com </span>
-        <PhoneIcon /> <span>+91 9307997953</span>
         <FacebookIcon /> <span>facebook</span>
         <InstagramIcon /> <span>instagram</span>
         <YouTubeIcon /> <span>youtube</span>

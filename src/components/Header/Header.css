@@ -6,12 +6,18 @@
   justify-content: space-between;
   background-color: #242424;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 
 .header__left {
   flex: 1;
   display: flex;
   align-items: center;
+}
+
+.header__left h1 {
   cursor: pointer;
 }
 
