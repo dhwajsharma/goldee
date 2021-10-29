@@ -11,7 +11,7 @@ const Products = () => {
           alt=""
         />
         <div className="products__text">
-          <div className="products__heading">Bus</div>
+          <div className="products__heading">LUXURY BUS ON HIRE</div>
           <div className="products__description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi,
             quos.{" "}
@@ -25,7 +25,7 @@ const Products = () => {
           alt=""
         />
         <div className="products__text">
-          <div className="products__heading">Bus</div>
+          <div className="products__heading">BUS ON HIRE FOR WEDDING</div>
           <div className="products__description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi,
             quos.{" "}
@@ -39,7 +39,7 @@ const Products = () => {
           alt=""
         />
         <div className="products__text">
-          <div className="products__heading">Bus</div>
+          <div className="products__heading">BUS ON HIRE FOR TOURS</div>
           <div className="products__description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi,
             quos.{" "}
@@ -53,7 +53,7 @@ const Products = () => {
           alt=""
         />
         <div className="products__text">
-          <div className="products__heading">Bus</div>
+          <div className="products__heading">BUS ON HIRE FOR SCHOOLS</div>
           <div className="products__description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi,
             quos.{" "}

@@ -1,0 +1,17 @@
+.count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #161616;
+  padding: 0.5em;
+  border-radius: 15px;
+  margin: 15px auto;
+  width: 70%;
+}
+
+.count__container {
+  margin: 0 10px;
+  font-size: 1.7em;
+  font-weight: bold;
+}
