@@ -1,20 +1,20 @@
 import React from "react";
+import { useHistory } from "react-router";
 import "./Header.css";
 
 const Header = () => {
+  const history = useHistory();
+
   return (
     <div className="header">
       <div className="header__left">
-        <h1>GOLDEE TRAVELS</h1>
+        <h1 onClick={() => history.push("/")}>GOLDEE TRAVELS</h1>
       </div>
 
       <div className="header__right">
-        <h2>LUXURY BUS ON HIRE</h2>
-        <h2>BUS ON HIRE FOR WEDDING</h2>
-        <h2>BUS ON HIRE FOR TOURS</h2>
-        <h2>BUS ON HIRE FOR SCHOOLS</h2>
-        <h2>CONTACT US</h2>
-        <h2>ABOUT US</h2>
+        <h2 onClick={() => history.push("/details")}>DETAILS</h2>
+        <h2 onClick={() => history.push("/contactus")}>CONTACT US</h2>
+        <h2 onClick={() => history.push("/aboutus")}>ABOUT US</h2>
       </div>
     </div>
   );

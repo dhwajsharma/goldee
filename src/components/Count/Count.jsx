@@ -10,16 +10,16 @@ const Count = () => {
         <h4>Tours</h4>
       </div>
       <div className="count__container">
-        <CountUp end={700} duration={5} />
+        <CountUp end={1600} duration={5} />
         <h4>Customers Satisfied</h4>
       </div>
       <div className="count__container">
         <CountUp end={200} duration={5} />
-        <h4>Tours</h4>
+        <h4>Destinations</h4>
       </div>
       <div className="count__container">
-        <CountUp end={200} duration={5} />
-        <h4>Tours</h4>
+        <CountUp end={20} duration={5} />
+        <h4>Buses</h4>
       </div>
     </div>
   );
