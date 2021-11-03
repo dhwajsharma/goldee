@@ -1,8 +1,12 @@
 import { Button } from "@mui/material";
 import React from "react";
+import { useHistory } from "react-router-dom";
+import LuxuryBus from "../LuxuryBus/LuxuryBus";
 import "./Products.css";
 
 const Products = () => {
+  const history = useHistory();
+
   return (
     <div className="products">
       <div className="products__container">
@@ -17,7 +21,9 @@ const Products = () => {
             quos.{" "}
           </div>
         </div>
-        <Button variant="contained">View Details</Button>
+        <Button variant="contained" onClick={() => history.push("/luxurybus")}>
+          View Details
+        </Button>
       </div>
       <div className="products__container">
         <img
@@ -31,7 +37,12 @@ const Products = () => {
             quos.{" "}
           </div>
         </div>
-        <Button variant="contained">View Details</Button>
+        <Button
+          variant="contained"
+          onClick={() => history.push("/luxurybuswedding")}
+        >
+          View Details
+        </Button>
       </div>
       <div className="products__container">
         <img
@@ -45,7 +56,12 @@ const Products = () => {
             quos.{" "}
           </div>
         </div>
-        <Button variant="contained">View Details</Button>
+        <Button
+          variant="contained"
+          onClick={() => history.push("/luxurybustours")}
+        >
+          View Details
+        </Button>
       </div>
       <div className="products__container">
         <img
@@ -59,7 +75,12 @@ const Products = () => {
             quos.{" "}
           </div>
         </div>
-        <Button variant="contained">View Details</Button>
+        <Button
+          variant="contained"
+          onClick={() => history.push("/luxurybusschools")}
+        >
+          View Details
+        </Button>
       </div>
     </div>
   );
